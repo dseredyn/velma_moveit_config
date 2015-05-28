@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: velma_description
+    relative_path: robots/velma.urdf.xacro
+  SRDF:
+    relative_path: config/velma.srdf
+  CONFIG:
+    generated_timestamp: 1432805245
