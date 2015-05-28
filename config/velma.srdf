@@ -10,15 +10,6 @@
     <!--CHAINS: When a chain is specified, all the links along the chain (including endpoints) are included in the group. Additionally, all the joints that are parents to included links are also included. This means that joints along the chain and the parent joint of the base link are included in the group-->
     <!--SUBGROUPS: Groups can also be formed by referencing to already defined group names-->
     <group name="right_arm">
-        <link name="calib_right_arm_base_link" />
-        <link name="right_arm_1_link" />
-        <link name="right_arm_2_link" />
-        <link name="right_arm_3_link" />
-        <link name="right_arm_4_link" />
-        <link name="right_arm_5_link" />
-        <link name="right_arm_6_link" />
-        <link name="right_arm_7_link" />
-        <link name="torso_link2" />
         <joint name="right_arm_0_joint" />
         <joint name="right_arm_1_joint" />
         <joint name="right_arm_2_joint" />
@@ -29,15 +20,6 @@
         <chain base_link="torso_link2" tip_link="right_arm_7_link" />
     </group>
     <group name="left_arm">
-        <link name="torso_link2" />
-        <link name="calib_left_arm_base_link" />
-        <link name="left_arm_1_link" />
-        <link name="left_arm_2_link" />
-        <link name="left_arm_3_link" />
-        <link name="left_arm_4_link" />
-        <link name="left_arm_5_link" />
-        <link name="left_arm_6_link" />
-        <link name="left_arm_7_link" />
         <joint name="left_arm_0_joint" />
         <joint name="left_arm_1_joint" />
         <joint name="left_arm_2_joint" />
